@@ -1,0 +1,7 @@
+.idealsteps-nav{
+	display: none;
+}
+form.idealforms button.next,
+form.idealforms button.prev {
+	display: none;
+}

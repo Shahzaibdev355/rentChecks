@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Rentchecks</title>
+    <link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico" />
+    <link rel="stylesheet" href="css/fonts.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+
+    <script type="text/javascript" src="js/modernizr.custom.82305.js."></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script type="text/javascript" src="js/jquery.icheck.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <div class="shell">
+          <div class="log-d"> <a href="index.asp" class="log-img"><img src="images/log.png"></a></div>
+<div class="log-b">
+            <div class="header-right">
+                <div class="nav-user">
+                    <ul>
+                        <li><a href="login.asp" class="btn-login">login</a></li>
+                        <li><a href="#">sign up</a></li>
+                    </ul>
+                    
+                    <div class="form-login">
+                        <form action="validuser.asp" onSubmit="return empty();"  method="post" name="userForm">
+                            <div class="form-body">
+                                <div class="form-row">
+                                    <label for="username" class="form-label">User Name</label>
+                                
+                                    <div class="form-controls">
+                                        <input type="text" name="username" id="username" class="field" />
+                                    </div><!-- /.form-controls -->
+                                </div><!-- /.form-row -->
+                
+                                <div class="form-row">
+                                    <label for="password" class="form-label">Password</label>
+                                
+                                    <div class="form-controls">
+                                        <input type="password" name="password" id="password" class="field" />
+                                    </div><!-- /.form-controls -->
+                                </div><!-- /.form-row -->
+                            </div><!-- /.form-body -->
+                
+                            <div class="form-foot">
+                                <input type="submit" value="log in" class="btn btn-orange" />
+                
+                                <ul>
+                                    <li><a href="forgot.asp">Forgot your password?</a></li>
+                                    <li><a href="forgot.asp">Forgot your username?</a></li>
+                                </ul>
+                
+                                <p><a href="register.asp">create an account</a></p>
+                            </div><!-- /.form-foot -->
+                        </form>
+                    </div><!-- /.form-login -->
+                </div><!-- /.nav-user -->
+                
+                <div class="socials">
+                    <a href="twitter.com/rentchecks" class="icon-twitter">twitter</a>
+                    <a href="googleplus.com/rentchecks" class="icon-google">google</a>
+                </div><!-- /.socials -->
+            </div><!-- /.header-right -->
+            
+            <p class="contacts"><em>Call</em> for support 0845 095 0055</p>
+            
+            </div>
+        </div><!-- /.shell -->
+    </header>
+
+    <nav class="nav">
+        <div class="shell">
+            <ul>
+                
+                <li><a href="register.asp">register</a></li>
+                <li><a href="solutions.asp">Referencing</a></li>
+            <li class="current"> <a href="sjlforms.asp">forms</a></li>
+                <li><a href="pricing.asp">pricing</a></li>
+                <li><a href="contact.asp">contact</a></li>
+            </ul>
+        </div><!-- /.shell -->
+    </nav><!-- /.nav -->
+	
+	
+	
+	
+	
+	 <!--responsive-menu-->
+	
+	
+<div class="rs-hide">
+<dropdown>
+  <input id="toggle1" type="checkbox" checked>
+  <label for="toggle1" class="animate">Editor<i class="fa fa-list float-right"></i></label>
+  <ul class="animate">
+     <li class="current"><a href="#">home</a></li>
+                <li><a href="register.asp">register</a></li>
+                <li><a href="solutions.asp">Referencing</a></li>
+                <li> <a href="cvsure.asp">CVsure</a></li>
+                <li><a href="pricing.asp">pricing</a></li>
+                <li><a href="forms.asp">forms</a></li>
+  </ul>
+</dropdown>
+</div>
+
+<dropdown>
+  <input id="toggle2" type="checkbox">
+  <label for="toggle2" class="animate">Menu<i class="fa fa-list float-right"></i></label>
+  <ul class="animate">
+      <li class="current"><a href="#">home</a></li>
+                <li><a href="register.asp">register</a></li>
+                <li><a href="solutions.asp">Referencing</a></li>
+            <li> <a href="cvsure.asp">CVsure</a></li>
+                <li><a href="pricing.asp">pricing</a></li>
+                <li><a href="forms.asp">forms</a></li>
+  </ul>
+</dropdown>
+	
+	
+	
+	 <!--responsive-menu-->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+<script language="javascript">
+function empty() {
+
+
+var valuep=userForm.password.value
+
+var valuename=userForm.username.value
+
+
+
+
+
+
+
+if (valuep=="")    {
+alert("You must enter a password");
+return false;
+}
+
+
+
+if (valuename=="")    {
+alert("You must enter a username");
+return false;
+}
+
+
+}
+
+
+
+</script>

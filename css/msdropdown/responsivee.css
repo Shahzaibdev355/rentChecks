@@ -1,0 +1,26 @@
+
+@media only screen and (max-width:768px){
+.shell {
+    margin: 0 auto;
+    width: 86%;
+}
+.main {
+    margin: 0 auto;
+    width: 100%;
+}
+.sidebar {
+ 
+    width: 100%;
+}
+.slider {
+ 
+    width: 100%;
+}
+.content {
+    float: right;
+    width: 100%;
+}
+.slider-nav {
+    width: 100%;
+}	
+}

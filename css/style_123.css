@@ -1,0 +1,55 @@
+.orderForm_123 {
+    /* background-image: linear-gradient(to left, #ee390f 0%, #f9b700 51%, #ee390f 100%);*/
+    background-image: linear-gradient(to top, #f9b700 0%, #ee390f 100%);
+    padding-top: 20px;
+}
+.orderForm_123 h1{
+    font-size: 20px;
+    width: 70%;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+/*    float: left;*/
+    margin-bottom: 20px;
+}
+.orderForm_123 > form > .form-row > .form-group{
+    margin-bottom: 5px;
+    color: #fafafa;
+}
+.orderForm_123 > form > .form-row > .form-group > label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fafafa;
+}
+.orderForm_123 > form > .form-row > .form-group > input{
+    font-size: 14px;
+    font-weight: 600;
+    color: #4e4e4e;
+    padding: 2px 2px !important;
+}
+.orderForm_123 > h1 > img{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.radioButtons_123 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fafafa;
+}
+.submitOrderForm {
+    margin: 10px 0;
+    border: none;
+    font-weight: 600;
+    border-radius: 50px;
+    font-size: 14px;
+    background: linear-gradient(#5b9bc2 0%, #256da6 100%);
+}
+.submitOrderForm:hover {
+    margin: 10px 0;
+    border: none;
+    font-weight: 600;
+    border-radius: 50px;
+    font-size: 14px;
+    background: linear-gradient(#256da6 0%, #5b9bc2 100%);
+}

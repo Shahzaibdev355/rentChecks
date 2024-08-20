@@ -1,0 +1,159 @@
+form.idealforms h4 {
+	clear: left;
+	margin-bottom: 1em;
+}
+form.idealforms h5{
+	clear: left;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+form button.prev{
+	margin-right: 1em;
+}
+.idealsteps-nav li a div{
+	padding-top: 0.5em;
+}
+.idealsteps-nav li:first-child a{
+	padding-left: 0.25em;
+}
+.idealsteps-nav a{
+	height: 3em;
+	line-height: 1.25em;
+	padding: 0.25em 0em 0 1.5em;
+	vertical-align: middle;
+}
+.idealsteps-nav a:after, .idealsteps-nav a:before{
+	margin-top: -0.6em;
+}
+.idealforms .main{
+	padding-bottom: 0;
+}
+form.idealforms .field.fullwidth label {
+	width: 100%;
+	display: block;
+}	
+form.idealforms label.blocklabel{
+	clear: left;
+	display: block;
+}
+form.idealforms label.tall{
+	margin-bottom: 0.5em;
+	width: 290px;
+	display: block;
+}
+form.idealforms .field.inline{
+	clear: none;
+	display: inline;
+}
+form.idealforms .field.inline label{	
+	float: left;
+	padding: 0.55em;
+	float: left;		
+}
+form.idealforms .field{
+	display: block;
+	width: auto;
+	height: auto;
+	padding: 0;
+	border: none;
+	box-shadow: none;
+	margin-bottom: 1.5em;
+}
+form.idealforms .field span{
+	float: left;
+	padding: 0.55em;
+}
+form.idealforms .field.tiny input{
+	width: 3em;
+}
+form.idealforms .field.tiny label{
+	width: auto;
+}
+form.idealforms .field.clearleft{
+	clear: left;
+}
+form.idealforms .field.clearleft label{
+	padding-left: 0;
+}	
+form.idealforms .field select{
+	width: auto;
+}
+form.idealforms .field.h-radio .ideal-radiocheck-label{
+	clear: none;
+	display: inline;
+	float: left;
+}
+form.idealforms .field.h-radio .group{
+	width: auto;
+}
+form.idealforms .group .iCheck-helper{
+	display: none !important;
+}
+form.idealforms .group .iradio{
+	margin-right: 0;
+	width: 0;
+}
+form.idealforms .field.valid-offset-12 i{
+	left: 12em;
+}
+form.idealforms .field.valid-offset-12 span.error{
+	left: 14em;
+}
+form.idealforms .disclaimer{
+	clear: both;
+}
+form.idealforms p.group.noborder{
+	border:  none;
+}
+ul#address-list {
+	list-style-type: none;
+}
+ul#address-list li a{
+	display: block;
+	padding: 0.25em;
+	text-decoration: none;	
+}
+ul#address-list li a:hover{
+	color: #fff;
+	background-color: #f78b43;
+}
+.ui-dialog .ui-dialog-titlebar{
+	padding: 0.25em 1em;
+}
+.ui-widget {
+	font-family: inherit;
+	font-size: inherit;
+}
+.ui-datepicker-header .ui-datepicker-prev, .ui-datepicker-header .ui-datepicker-next{
+	background: none;
+}
+.ui-dialog .ui-dialog-titlebar{
+	background: linear-gradient(to bottom, #1c6aa4 0%,#5e9dc4 100%);
+	color: #fff;
+}
+.ui-dialog .ui-dialog-content{
+	padding: 0;
+}
+
+/** Override invalid class **/
+form.idealforms .field.invalid input,
+form.idealforms .field.invalid select,
+form.idealforms .field.invalid textarea,
+form.idealforms .field.invalid .group{
+	background: inherit;
+	border-color: inherit;
+}
+
+form.idealforms .field.invalid.essential input,
+form.idealforms .field.invalid.essential select,
+form.idealforms .field.invalid.essential textarea,
+form.idealforms .field.invalid.essential .group{
+	background: #ffeded;
+	border-color: #cc2a18;
+}
+.idealsteps-nav li.idealsteps-step-active a{
+	padding-right: 0;
+}
+.idealsteps-nav li.idealsteps-step-active .counter{
+	display: none;
+}

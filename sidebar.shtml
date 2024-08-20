@@ -1,0 +1,142 @@
+<aside class="sidebar">
+	<ul class="widgets">
+		<li class="widget widget-links">
+			<h5 class="widgettitle">Quick Links</h5>
+
+			<nav class="menu">
+				<ul>
+					<li><a href="#">Free registration</a></li>
+					<li><a href="#">Information for agents</a></li>
+					<li><a href="#">Tenants</a></li>
+					<li><a href="#">Landlords</a></li>
+					<li><a href="#">Credit &amp; Fraud Check</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Lost password</a></li>
+					<li><a href="#">Send form to applicant</a></li>
+					<li><a href="#">Data Protection Act</a></li>
+					<li><a href="about.asp">About us</a></li>
+					<li><a href="#">Misuse &amp; privacy</a></li>
+					<li><a href="SAMPLEADV.pdf"onclick="popUp(this.href,'elastic',400,400);return false;" target="newWin"title="Sample Report">Sample Report</a></p>
+					<li><a href="#">Premier Report</a></li>
+					<li><a href="#">Site map</a></li>
+					<li><a href="#">Landlord resources</a></li>
+				</ul>
+			</nav><!-- /.menu -->
+		</li><!-- /.widget -->
+		
+		<li class="widget widget-rent">
+
+			<div class="form-rent">
+				<form action="">
+					<div class="form-head">
+						<h4 class="widgettitle">
+							<span>Send a form to <br />your prospective <br />tenant here</span>
+
+							<i class="icon-edit"></i></h4>
+					</div><!-- /.form-head -->
+
+					<div class="form-body">
+						<div class="form-row">
+							<label for="email" class="form-label">Your email address</label>
+						
+							<div class="form-controls">
+								<input type="text" name="email" id="email" class="field" />
+							</div><!-- /.form-controls -->
+						</div><!-- /.form-row -->
+
+						<div class="form-extend">
+							<div class="form-row">
+								<label for="app-type" class="form-label">Application Type</label>
+							
+								<div class="form-controls">
+									<input type="text" name="app-type" id="app-type" class="field" />
+								</div><!-- /.form-controls -->
+							</div><!-- /.form-row -->
+
+							<div class="form-row">
+								<label for="number" class="form-label">Number of applicant requiring forms?</label>
+							
+								<div class="form-controls">
+									<input type="text" name="number" id="number" class="field field-small" />
+								</div><!-- /.form-controls -->
+							</div><!-- /.form-row -->
+
+							<div class="form-row">
+								<label for="address" class="form-label">Property address</label>
+							
+								<div class="form-controls">
+									<input type="text" name="address" id="address" class="field" />
+								</div><!-- /.form-controls -->
+							</div><!-- /.form-row -->
+
+							<div class="form-row">
+								<label for="rent" class="form-label">Rent</label>
+							
+								<div class="form-controls">
+									<input type="text" name="rent" id="rent" class="field" />
+								</div><!-- /.form-controls -->
+							</div><!-- /.form-row -->
+
+							<div class="form-row">
+								<label for="tenant" class="form-label">First Tenant’s email address</label>
+							
+								<div class="form-controls">
+									<input type="text" name="tenant" id="tenant" class="field" />
+								</div><!-- /.form-controls -->
+							</div><!-- /.form-row -->
+
+							<div class="form-row">
+								<label for="fee-yes" class="form-label">Request Fee?</label>
+							
+								<div class="form-controls">
+									<div class="radio">
+										<input type="radio" name="fee" id="fee-yes" value="Yes" />
+
+										<label for="fee-yes">Yes</label>
+									</div><!-- /.radio -->
+
+									<div class="radio">
+										<input type="radio" name="fee" id="fee-no" value="No" />
+
+										<label for="fee-no">No</label>
+									</div><!-- /.radio -->
+								</div><!-- /.form-controls -->
+							</div><!-- /.form-row -->
+						</div><!-- /.form-extend -->
+					</div><!-- /.form-body -->
+
+					<div class="form-foot">
+						<input type="submit" value="submit" class="btn btn-blue" />
+					</div><!-- /.form-foot -->
+				</form>
+			</div><!-- /.form-rent -->
+		</li><!-- /.widget -->
+		
+		<li class="widget widget-twitter">
+			<h4 class="widgettitle">
+				<i class="icon-bird"></i>
+
+				<span><em>From</em>Twitter</span>
+			</h4>
+
+			<ol>
+				<li>
+					<strong>Rentchecks </strong><a href="#">@RentChecks</a><br />
+					24 Jan 14 <br />
+					
+					
+					
+					
+					<a class="twitter-timeline" href="https://twitter.com/RentChecks" data-widget-id="452745336398675968">Tweets by @RentChecks</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+				</li>
+			</ol>
+
+			<div class="more">
+				<a href="#">follow us</a>
+			</div><!-- /.more -->
+		</li><!-- /.widget -->
+	</ul><!-- /.widgets -->
+</aside><!-- /.sidebar -->

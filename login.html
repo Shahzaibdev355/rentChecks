@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<meta name="description" content="Access UK & International credit, reference & background intelligence to verify your prospective tenants character & suitability to rent a property">
+        <title>Rentchecks.com Login Page for landlords & agents</title> 
+        <link rel="icon" href="img/assets/favicon.png" type="image/png"> 
+        <link href="css/plugins.css" rel="stylesheet" type="text/css" media="all">   
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all">  
+        <link href="css/icon-fonts.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all">  
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300%7CMontserrat:400,700%7CRaleway:400,200,300' rel='stylesheet' type='text/css'> 
+    </head>
+    <body> 
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+              
+
+        <!-- Start Header -->
+        <nav class="navbar navbar-default transparent">
+            <div class="container">
+                
+                <div class="navbar-header">
+                    <div class="container">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar top-bar"></span>
+                            <span class="icon-bar middle-bar"></span>
+                            <span class="icon-bar bottom-bar"></span>
+                        </button>
+                        <a class="navbar-brand logo-light" href="index.html"><img src="img/assets/logo-light.png" alt="#"></a>
+                        <a class="navbar-brand logo-dark" href="index.html"><img src="img/assets/logo-dark.png" alt="#"></a>
+                    </div>
+                </div>
+                
+                <div id="navbar" class="navbar-collapse collapse">
+                    <div class="container">
+                        <ul class="nav navbar-nav menu-right"> 
+                            
+                            <!-- Layouts --> 
+                            <li class="dropdown megamenu"><a href="index.html" class="dropdown-toggle">Home</i></a> 
+                                                         <!-- End Layouts -->
+                            
+                            <!-- Pages --> 
+                            <li class="dropdown"><a href="upload.html" class="dropdown-toggle">Upload</i></a> 
+                               
+                            <!-- End Pages -->
+                            
+                            <!-- Elements -->
+                            <li class="dropdown megamenu"><a href="forms.html" class="dropdown-toggle">Forms</i></a> 
+                                
+                            <!-- End Elements -->
+                            
+                            <!-- Portfolio -->
+                            <li class="active"><a href="#" class="dropdown-toggle">Login</a> 
+                               
+                            <!-- End Portfolio -->
+                            
+                            <!-- Shop --> 
+                            <li class="dropdown"><a href="register.html" class="dropdown-toggle">Register</li></a> 
+                
+                            </li> 
+                            <!-- End Shop -->
+                            
+                            <!-- Blog -->
+                            <li class="dropdown"><a href="contact.html" class="dropdown-toggle">Contact</a> 
+                                
+                            <!-- End Blog -->   
+                            
+                            <!-- Search Icon Button -->
+                            <li class="header-divider"><a><span></span></a></li> 
+                            <li class="header-icon-btn">
+                                <a class="popup-with-zoom-anim search" href="#search-modal"><span class="fa fa-search"></span></a>
+                                <div id="search-modal" class="zoom-anim-dialog mfp-hide">
+                                    <form>  
+                                        <input type="text" id="search-modal-input" placeholder="Start typing to search..." autocomplete="off">
+                                    </form>
+                                </div>
+                            </li> 
+                            <!-- End Search Icon Button -->
+                             
+                            <!-- Social Icons -->
+                            <li><a href="#"><span class="ion-social-twitter"></span></a></li> 
+                            <!-- End Social Icons -->
+                            
+                        </ul>   
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+        <!-- End Header -->        
+        <!-- Start Coming Soon Section -->
+        <section id="login" class="bg-grey-1"> 
+            <div class="login-container"> 
+                
+                <div class="container text-center">
+                    
+                    <div class="col-md-12">
+				        <h3 class="mb5">Login to your account</h3> 
+                        <p class="subheading">Welcome to Rentchecks.com</p>
+				        <div class="login-form pt30 pb30">
+				               <form action="validuser.asp" onSubmit="return empty();"  method="post" name="userForm">
+				               <center>
+				  <font color="red"><b>
+				  	<%if request.querystring("reg")="fail"then 
+					response.write("Login failed")
+					end if%>
+				  </font></b>
+
+
+				               
+								<input class="form-email bg-white" type="text" id="username" name="username"placeholder="Username">
+								<input class="form-password bg-white" type="password" id="password"name="password"placeholder="Password">
+                                
+                                <div class="actions">
+                                    <a href="forgotten.html" class="pull-left dark-grey">Forgot Password?</a>
+                                    <a href="#" class="pull-right dark-grey">Login with <i class="fa fa-facebook-official"></i></a>
+                                </div>
+                                 
+								<input class="btn btn-sm btn-login" type="submit" value="Login">
+				            </form>  
+				        </div> 
+                        <p>Don't have an account? <a href="register.html">Sign up</a></p>
+                        <p class="terms">By logging in, you agree to our <a href="#">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a>.</p>
+				    </div>   
+                    
+                </div>
+                
+            </div> 
+        </section>
+        <!-- End Coming Soon Section -->   
+        
+        <!-- Scripts -->
+        <script src="js/jquery.min.js"></script>
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+        <script src="js/plugins.js"></script>             
+        <script src="js/scripts.js"></script>  
+
+
+
+
+
+
+
+
+  
+  <script type="text/javaScript">
+
+
+
+function empty() {
+
+
+var valuep=userForm.password.value
+
+var valuename=userForm.username.value
+
+
+
+
+
+
+
+if (valuep=="")    {
+alert("You must enter a password");
+return false;
+}
+
+
+
+if (valuename=="")    {
+alert("You must enter a username");
+return false;
+}
+
+
+}
+
+
+
+</script>
+
+    </body>
+</html>
